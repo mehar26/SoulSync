@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 from mood_analysis import analyze_mood
 
+#THIS IS FIDHA'S COMMENT
 app = Flask(__name__)
 CORS(app)  # Allows frontend to communicate with backend
 
